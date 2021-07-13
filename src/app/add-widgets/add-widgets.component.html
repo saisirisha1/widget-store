@@ -1,0 +1,59 @@
+
+<form [formGroup]="myForm" (ngSubmit)="submit()">
+
+    <mat-form-field class="form-group" appearance="outline">
+        <mat-label for="titleApp">App Id</mat-label>
+        <input matInput formControlName="titleApp">
+      </mat-form-field>
+<div>
+      <mat-form-field class="widget-form" appearance="outline">
+        <mat-label for="titleApp">Name of the App</mat-label>
+        <input matInput formControlName="titleApp">
+      </mat-form-field>
+    </div>
+<div>
+      <mat-form-field class="widget-form" appearance="outline">
+          <mat-label for="descriptionApp">Description</mat-label>
+          <textarea matInput formControlName="descriptionApp"></textarea>
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="widget-form" appearance="outline">
+            <mat-label for="aboutApp">About</mat-label>
+            <textarea matInput formControlName="aboutApp"></textarea>
+          </mat-form-field>
+        </div>
+        <div>
+          <mat-form-field class="widget-form" appearance="outline">
+              <mat-label for="ratingApp">Ratings</mat-label>
+              <input matInput formControlName="ratingApp">
+            </mat-form-field>
+          </div>
+          <div>
+            <mat-form-field class="widget-form" appearance="outline">
+                  <mat-label for="urlApp">Enter your web URL</mat-label>
+                 <input matInput formControlName="urlApp">
+                </mat-form-field>
+              </div>
+
+
+    <div class="form-group input-file">
+      <label for ="file" class="logo-form">Upload your Dashboard Image</label>
+      <input formControlName="appLogo" type="file" id="file" (change)="onFileChangeLogo($event)">
+    </div>
+
+    <div class="form-group input-file">
+        <label for ="file" class="about-form">Upload your About Image</label>
+        <input formControlName="appImage" type="file" id="file" (change)="onFileChangeImage($event)">
+      </div>
+
+      <div class="form-group last-form input-file">
+          <label for ="file" class="header-form">Upload your Header Image</label>
+          <input formControlName="appOtherImage" type="file" id="file" (change)="onFileChangeOther($event)">
+        </div>
+
+
+    <!-- <img [src]="imageSrc" *ngIf="imageSrc" style="height: 300px; width:500px"> -->
+    <button mat-raised-button class="col-md-5 submit-form" type="submit">Submit</button>
+
+</form>

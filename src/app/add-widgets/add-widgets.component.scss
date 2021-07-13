@@ -1,0 +1,53 @@
+:host{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-file{
+  padding: 1rem;
+    border: 1px solid  #002d71;
+    border-radius: 5px;
+ // background-color: #f5f5f5;
+}
+.input-label{
+  border: 1px solid #002d71;
+}
+
+.form-group{
+  margin-top: 10px;
+  width: 43em;
+
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color:  #002d71 !important;
+}
+
+.last-form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 43em;
+}
+
+.widget-form{
+  width:43em;
+
+}
+.submit-form{
+  height:60px;
+  background-color: #002d71;
+  color: white;
+  font-size: 16px;
+  width: 37.7em;
+}
+.logo-form{
+  padding-right: 12px;
+}
+.about-form{
+  padding-right: 44px;
+}
+.header-form{
+  padding-right: 32px;
+}

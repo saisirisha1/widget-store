@@ -1,0 +1,43 @@
+.menu-layout{
+  margin: 15px;
+
+}
+
+.header-layout{
+  background-color: #002d71;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  font-family: system-ui;
+}
+
+.rotate-icon{
+ padding-bottom: 38px;
+ transform: rotateZ(92deg);
+
+}
+
+.mat-toolbar-multiple-rows{
+  min-height: 41px;
+
+}
+.mat-toolbar-row, .mat-toolbar-single-row {
+  height: 43px;
+}
+.logo-css{
+  height:36px;
+  margin-bottom: 15px;
+  margin-left: 16px;
+}
+.example-button-row{
+  display: table-cell;
+  width: 490px;
+}
+.example-button-row .mat-button-base{
+  margin: 8px 8px 8px 0;
+}
+.example-flex-container{
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}

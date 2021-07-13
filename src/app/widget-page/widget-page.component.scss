@@ -1,0 +1,45 @@
+.profile-title{
+  font-size: 23px;
+  font-weight:400;
+  margin-top: 38px;
+}
+
+.last-sign{
+  font-size: 16px;
+  font-weight: 300;
+}
+.sec-header{
+  letter-spacing: 3px;
+  margin-top: 38px
+}
+.sub-title{
+  color : #002d71;
+
+}
+.mat-card{
+  border-radius : 15px;
+}
+.list-css{
+  margin-top: 3%;
+}
+.widget-logo{
+  margin-right: 1px;
+}
+.small-font{
+  font-size: 12px;
+}
+.citi-logo{
+  height: 70px;
+}
+.mat-slide-toggle{
+  transform: scale(1.6);
+}
+.mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-thumb{
+background-color: #002d71 !important;
+}
+.mat-flat-button.mat-primary,
+.mat-raised-button.mat-primary,
+.mat-fab.mat-primary,
+.mat-mini-fab.mat-primary{
+  background-color: #002d71;
+  }
